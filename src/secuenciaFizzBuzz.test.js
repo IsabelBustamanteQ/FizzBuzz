@@ -12,4 +12,7 @@ describe("FizzBuzz", () => {
     it("genera secuencia de 6 numeros",()=>{
         expect(SecuenciaFizzBuzz(6)).toEqual(" 1 2 Fizz 4 Buzz Fizz");
     });
+    it("genera secuencia de 15 numeros",()=>{
+        expect(SecuenciaFizzBuzz(15)).toEqual(" 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz");
+    });
 });
